@@ -25,7 +25,7 @@ namespace ConsoleApp5
         {
             public void OnVideoEncoded(object sender, EventArgs e)
             {
-                Console.WriteLine("Sending message...");
+                Console.WriteLine("Sending mesgggsage...");
             }
         }
 
@@ -41,7 +41,7 @@ namespace ConsoleApp5
 
             public void Encode()
             {
-                Console.WriteLine("Encoding...Video");
+                Console.WriteLine("Encodfdgdgdfddging...Video");
                 Thread.Sleep(2000);
                 OnVideoEncoded?.Invoke(this,EventArgs.Empty);
                 
